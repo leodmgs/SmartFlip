@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A31620121C6FBEE001DB589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31620021C6FBEE001DB589 /* AppDelegate.swift */; };
+		7A31620321C6FBEE001DB589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31620221C6FBEE001DB589 /* ViewController.swift */; };
+		7A31620621C6FBEE001DB589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A31620421C6FBEE001DB589 /* Main.storyboard */; };
+		7A31620921C6FBEE001DB589 /* SmartFlip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A31620721C6FBEE001DB589 /* SmartFlip.xcdatamodeld */; };
+		7A31620B21C6FBF0001DB589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A31620A21C6FBF0001DB589 /* Assets.xcassets */; };
+		7A31620E21C6FBF0001DB589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A31620C21C6FBF0001DB589 /* LaunchScreen.storyboard */; };
+		7A31621921C6FBF0001DB589 /* SmartFlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31621821C6FBF0001DB589 /* SmartFlipTests.swift */; };
+		7A31622421C6FBF0001DB589 /* SmartFlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A31622321C6FBF0001DB589 /* SmartFlipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A31621521C6FBF0001DB589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A3161F521C6FBEE001DB589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3161FC21C6FBEE001DB589;
+			remoteInfo = SmartFlip;
+		};
+		7A31622021C6FBF0001DB589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A3161F521C6FBEE001DB589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3161FC21C6FBEE001DB589;
+			remoteInfo = SmartFlip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A3161FD21C6FBEE001DB589 /* SmartFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A31620021C6FBEE001DB589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A31620221C6FBEE001DB589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A31620521C6FBEE001DB589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A31620821C6FBEE001DB589 /* SmartFlip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartFlip.xcdatamodel; sourceTree = "<group>"; };
+		7A31620A21C6FBF0001DB589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A31620D21C6FBF0001DB589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A31620F21C6FBF0001DB589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A31621421C6FBF0001DB589 /* SmartFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A31621821C6FBF0001DB589 /* SmartFlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFlipTests.swift; sourceTree = "<group>"; };
+		7A31621A21C6FBF0001DB589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A31621F21C6FBF0001DB589 /* SmartFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A31622321C6FBF0001DB589 /* SmartFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFlipUITests.swift; sourceTree = "<group>"; };
+		7A31622521C6FBF0001DB589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A3161FA21C6FBEE001DB589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A31621121C6FBF0001DB589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A31621C21C6FBF0001DB589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A3161F421C6FBEE001DB589 = {
+			isa = PBXGroup;
+			children = (
+				7A3161FF21C6FBEE001DB589 /* SmartFlip */,
+				7A31621721C6FBF0001DB589 /* SmartFlipTests */,
+				7A31622221C6FBF0001DB589 /* SmartFlipUITests */,
+				7A3161FE21C6FBEE001DB589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A3161FE21C6FBEE001DB589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A3161FD21C6FBEE001DB589 /* SmartFlip.app */,
+				7A31621421C6FBF0001DB589 /* SmartFlipTests.xctest */,
+				7A31621F21C6FBF0001DB589 /* SmartFlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A3161FF21C6FBEE001DB589 /* SmartFlip */ = {
+			isa = PBXGroup;
+			children = (
+				7A31620021C6FBEE001DB589 /* AppDelegate.swift */,
+				7A31620221C6FBEE001DB589 /* ViewController.swift */,
+				7A31620421C6FBEE001DB589 /* Main.storyboard */,
+				7A31620A21C6FBF0001DB589 /* Assets.xcassets */,
+				7A31620C21C6FBF0001DB589 /* LaunchScreen.storyboard */,
+				7A31620F21C6FBF0001DB589 /* Info.plist */,
+				7A31620721C6FBEE001DB589 /* SmartFlip.xcdatamodeld */,
+			);
+			path = SmartFlip;
+			sourceTree = "<group>";
+		};
+		7A31621721C6FBF0001DB589 /* SmartFlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A31621821C6FBF0001DB589 /* SmartFlipTests.swift */,
+				7A31621A21C6FBF0001DB589 /* Info.plist */,
+			);
+			path = SmartFlipTests;
+			sourceTree = "<group>";
+		};
+		7A31622221C6FBF0001DB589 /* SmartFlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A31622321C6FBF0001DB589 /* SmartFlipUITests.swift */,
+				7A31622521C6FBF0001DB589 /* Info.plist */,
+			);
+			path = SmartFlipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A3161FC21C6FBEE001DB589 /* SmartFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A31622821C6FBF0001DB589 /* Build configuration list for PBXNativeTarget "SmartFlip" */;
+			buildPhases = (
+				7A3161F921C6FBEE001DB589 /* Sources */,
+				7A3161FA21C6FBEE001DB589 /* Frameworks */,
+				7A3161FB21C6FBEE001DB589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartFlip;
+			productName = SmartFlip;
+			productReference = 7A3161FD21C6FBEE001DB589 /* SmartFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A31621321C6FBF0001DB589 /* SmartFlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A31622B21C6FBF0001DB589 /* Build configuration list for PBXNativeTarget "SmartFlipTests" */;
+			buildPhases = (
+				7A31621021C6FBF0001DB589 /* Sources */,
+				7A31621121C6FBF0001DB589 /* Frameworks */,
+				7A31621221C6FBF0001DB589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A31621621C6FBF0001DB589 /* PBXTargetDependency */,
+			);
+			name = SmartFlipTests;
+			productName = SmartFlipTests;
+			productReference = 7A31621421C6FBF0001DB589 /* SmartFlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A31621E21C6FBF0001DB589 /* SmartFlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A31622E21C6FBF0001DB589 /* Build configuration list for PBXNativeTarget "SmartFlipUITests" */;
+			buildPhases = (
+				7A31621B21C6FBF0001DB589 /* Sources */,
+				7A31621C21C6FBF0001DB589 /* Frameworks */,
+				7A31621D21C6FBF0001DB589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A31622121C6FBF0001DB589 /* PBXTargetDependency */,
+			);
+			name = SmartFlipUITests;
+			productName = SmartFlipUITests;
+			productReference = 7A31621F21C6FBF0001DB589 /* SmartFlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A3161F521C6FBEE001DB589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Leonardo Domingues";
+				TargetAttributes = {
+					7A3161FC21C6FBEE001DB589 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7A31621321C6FBF0001DB589 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A3161FC21C6FBEE001DB589;
+					};
+					7A31621E21C6FBF0001DB589 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7A3161FC21C6FBEE001DB589;
+					};
+				};
+			};
+			buildConfigurationList = 7A3161F821C6FBEE001DB589 /* Build configuration list for PBXProject "SmartFlip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A3161F421C6FBEE001DB589;
+			productRefGroup = 7A3161FE21C6FBEE001DB589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A3161FC21C6FBEE001DB589 /* SmartFlip */,
+				7A31621321C6FBF0001DB589 /* SmartFlipTests */,
+				7A31621E21C6FBF0001DB589 /* SmartFlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A3161FB21C6FBEE001DB589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A31620E21C6FBF0001DB589 /* LaunchScreen.storyboard in Resources */,
+				7A31620B21C6FBF0001DB589 /* Assets.xcassets in Resources */,
+				7A31620621C6FBEE001DB589 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A31621221C6FBF0001DB589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A31621D21C6FBF0001DB589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A3161F921C6FBEE001DB589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A31620921C6FBEE001DB589 /* SmartFlip.xcdatamodeld in Sources */,
+				7A31620321C6FBEE001DB589 /* ViewController.swift in Sources */,
+				7A31620121C6FBEE001DB589 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A31621021C6FBF0001DB589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A31621921C6FBF0001DB589 /* SmartFlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A31621B21C6FBF0001DB589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A31622421C6FBF0001DB589 /* SmartFlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A31621621C6FBF0001DB589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A3161FC21C6FBEE001DB589 /* SmartFlip */;
+			targetProxy = 7A31621521C6FBF0001DB589 /* PBXContainerItemProxy */;
+		};
+		7A31622121C6FBF0001DB589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A3161FC21C6FBEE001DB589 /* SmartFlip */;
+			targetProxy = 7A31622021C6FBF0001DB589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A31620421C6FBEE001DB589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A31620521C6FBEE001DB589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A31620C21C6FBF0001DB589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A31620D21C6FBF0001DB589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A31622621C6FBF0001DB589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A31622721C6FBF0001DB589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A31622921C6FBF0001DB589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G736GNRXH4;
+				INFOPLIST_FILE = SmartFlip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodmgs.SmartFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A31622A21C6FBF0001DB589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G736GNRXH4;
+				INFOPLIST_FILE = SmartFlip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodmgs.SmartFlip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A31622C21C6FBF0001DB589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G736GNRXH4;
+				INFOPLIST_FILE = SmartFlipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodmgs.SmartFlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFlip.app/SmartFlip";
+			};
+			name = Debug;
+		};
+		7A31622D21C6FBF0001DB589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G736GNRXH4;
+				INFOPLIST_FILE = SmartFlipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodmgs.SmartFlipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFlip.app/SmartFlip";
+			};
+			name = Release;
+		};
+		7A31622F21C6FBF0001DB589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G736GNRXH4;
+				INFOPLIST_FILE = SmartFlipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodmgs.SmartFlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartFlip;
+			};
+			name = Debug;
+		};
+		7A31623021C6FBF0001DB589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G736GNRXH4;
+				INFOPLIST_FILE = SmartFlipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leodmgs.SmartFlipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartFlip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A3161F821C6FBEE001DB589 /* Build configuration list for PBXProject "SmartFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A31622621C6FBF0001DB589 /* Debug */,
+				7A31622721C6FBF0001DB589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A31622821C6FBF0001DB589 /* Build configuration list for PBXNativeTarget "SmartFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A31622921C6FBF0001DB589 /* Debug */,
+				7A31622A21C6FBF0001DB589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A31622B21C6FBF0001DB589 /* Build configuration list for PBXNativeTarget "SmartFlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A31622C21C6FBF0001DB589 /* Debug */,
+				7A31622D21C6FBF0001DB589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A31622E21C6FBF0001DB589 /* Build configuration list for PBXNativeTarget "SmartFlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A31622F21C6FBF0001DB589 /* Debug */,
+				7A31623021C6FBF0001DB589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A31620721C6FBEE001DB589 /* SmartFlip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A31620821C6FBEE001DB589 /* SmartFlip.xcdatamodel */,
+			);
+			currentVersion = 7A31620821C6FBEE001DB589 /* SmartFlip.xcdatamodel */;
+			path = SmartFlip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A3161F521C6FBEE001DB589 /* Project object */;
+}
