@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
     
     // @ADD: Insert wild cards allowing the user flip correctly for any side
+    // @ADD: Invert flip direction to turn the game a more difficult
     
     private func setupGestureRecognizers() {
         let swipeLeftToRight = UISwipeGestureRecognizer(target: self, action: #selector(handleGesture))
